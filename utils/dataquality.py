@@ -23,4 +23,4 @@ def data_quality(dataframe):
     else:
         print("The dataframe only contains numeric values.")
 
-
+    print('execution ends.')
