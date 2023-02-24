@@ -20,4 +20,5 @@ def scatter_tsne_color(dataframe, val_x, val_y, val_color, val_title):
     fig.update_layout(showlegend=False)
     fig.update_xaxes(visible=False)
     fig.update_yaxes(visible=False)
+    fig.update_layout(title_font_color="white")
     return fig
